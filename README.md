@@ -13,11 +13,11 @@ The project makes use of the following Microsoft Cognitive Services:
 ## Prerequisites
 
 ### Custom Vision Object Detection
-Create a Custom Vision Object Detection project. Add training images and tag the price tags using 'Tag' as the tag name.
+Create a [Custom Vision Object Detection](https://docs.microsoft.com/en-us/azure/cognitive-services/custom-vision-service/csharp-tutorial-od) project. Add training images and tag the price tags using 'Tag' as the tag name.
 
 ![Custom Vision object tagging](./images/custom_vision_tagging.png)
 
 
 ### Cognitive Services Computer Vision
-Create an instance of Cognitive Services Computer Vision in the [Azure Portal](https://portal.azure.com).
+Create an instance of [Cognitive Services Computer Vision](https://azure.microsoft.com/en-us/try/cognitive-services/my-apis/?api=computer-vision) in the [Azure Portal](https://portal.azure.com).
 
