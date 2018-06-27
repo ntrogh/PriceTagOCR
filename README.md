@@ -1,4 +1,4 @@
-# PriceTagOCR
+# Price tag OCR
 
 Project to allow extracting the price tags from a picture in a store. In a second step, the images of the price tags are then OCRed.
 
