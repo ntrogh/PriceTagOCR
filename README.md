@@ -35,10 +35,22 @@ Once we have detected the price tags, we will perform OCR on the extracted price
 1. Open the [Azure Management portal](https://portal.azure.com)
 2. Click the '+" button to create a new resource
 3. Search for **Computer Vision** and create a new instance
->> **Note**: when you choose another location than West Europe, you will need to change the computer vision base Uri in the source code to point to your selected region
-
-    ```csharp
-    private const string _computerVisionBaseUri = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/recognizeText";
-    ```
-
 4. Note down the Computer Vision subscription key
+
+>> **Note**: when you choose another location than *West Europe*, you will need to change the computer vision base Uri in the source code to point to your selected region
+
+```csharp
+private const string _computerVisionBaseUri = "https://westeurope.api.cognitive.microsoft.com/vision/v2.0/recognizeText";
+```
+
+## Running the project
+
+The console application takes a number of command-line arguments. These can be provided when running the executable or can be configured in the Visual Studio Project Settings: Project > PriceTagOCR Properties > Debug > Comand line arguments
+
+Command-line arguments:
+
+1. path to source image
+2. output folder where the extracted price tag images are stored
+3. Custom Vision prediction key
+4. Custom Vision project Id
+5. Computer Vision subscription key
