@@ -16,7 +16,7 @@ namespace PriceTagOCR
     public class PriceTagProcessor
     {
         private double _probabilityThreshold = 0.5;
-        private string[] _detectionLabels = new string[] { "Tag" };
+        private string[] _detectionLabels = new string[] { "PriceTag" };
         private string _customVisionPredictionKey;
         private Guid _customVisionProjectId;
         private string _computerVisionSubscriptionKey;
